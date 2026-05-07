@@ -149,10 +149,6 @@ All results and logs are written to the **Breakpoint Assistant** pane in the Vis
 3. Click **Install**
 4. Restart Visual Studio
 
-### System Requirements
-- Visual Studio 2022 (version 17.0 or higher)
-- .NET Framework 4.7.2 or higher
-
 # License
 
 MIT
