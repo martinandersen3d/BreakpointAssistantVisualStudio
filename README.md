@@ -144,11 +144,10 @@ All results and logs are written to the **Breakpoint Assistant** pane in the Vis
 
 ## Installation
 
-### From VSIX
-1. Download the latest `.vsix` file from the [Releases](https://github.com/martinandersen3d/BreakpointAssistant/releases) page
-2. Double-click the `.vsix` file to install
-3. Restart Visual Studio
-4. Access the extension via **Extensions** > **Breakpoint Assistant** or by right-clicking in the code editor
+1. Click **Extensions** > **Manage Extensions**
+2. Search for **Breakpoint Assistant**
+3. Click **Install**
+4. Restart Visual Studio
 
 ### System Requirements
 - Visual Studio 2022 (version 17.0 or higher)

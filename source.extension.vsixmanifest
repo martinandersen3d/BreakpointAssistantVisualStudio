@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="BreakpointAssistant.7c846b84-b6ff-4519-ab5b-96f46b3890ca" Version="1.0" Language="en-US" Publisher="Martin Andersen" />
+        <Identity Id="BreakpointAssistant.7c846b84-b6ff-4519-ab5b-96f46b3890ca" Version="1.1" Language="en-US" Publisher="Martin Andersen" />
         <DisplayName>Breakpoint Assistant - Bulk Code Debug Automation</DisplayName>
         <Description xml:space="preserve">Accelerate debugging with bulk breakpoint automation - Extension for Visual Studio. Bulk breakpoint manager for Visual Studio. Set mass breakpoints on C# code patterns: methods, loops, conditionals, exceptions, and more. Boost IDE productivity and .NET debugging efficiency. Automated breakpoints for smarter developer workflow.</Description>
         <MoreInfo>https://github.com/martinandersen3d/BreakpointAssistantVisualStudio</MoreInfo>
