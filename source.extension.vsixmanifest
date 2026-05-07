@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="BreakpointAssistant.7c846b84-b6ff-4519-ab5b-96f46b3890ca" Version="1.0" Language="en-US" Publisher="Martin Andersen" />
+        <DisplayName>Breakpoint Assistant - Bulk Code Debug Automation</DisplayName>
+        <Description xml:space="preserve">Accelerate debugging with bulk breakpoint automation - Extension for Visual Studio. Bulk breakpoint manager for Visual Studio. Set mass breakpoints on C# code patterns: methods, loops, conditionals, exceptions, and more. Boost IDE productivity and .NET debugging efficiency. Automated breakpoints for smarter developer workflow.</Description>
+        <MoreInfo>https://github.com/martinandersen3d/BreakpointAssistantVisualStudio</MoreInfo>
+        <License>LICENSE.txt</License>
+        <GettingStartedGuide>GETTING-STARTED.txt</GettingStartedGuide>
+        <Icon>Icon-128x128.png</Icon>
+        <Tags>breakpoint, assistant, bulk, mass, automate, debug, manager, IDE productivity, .NET debugging, C# debugging, web debugging, remote debugging, diagnostic tools, developer workflow, debugging efficiency, debugging assistant, automated breakpoints, logging and tracing, visual studio marketplace, breakpoint organizer</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[17.0,)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[17.0,)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Id="Microsoft.VisualStudio.IntegratedShell" Version="[17.0,)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+    </Assets>
+</PackageManifest>

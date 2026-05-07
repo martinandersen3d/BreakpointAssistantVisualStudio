@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <!-- Override VSSDK BuildTools version to avoid compatibility issues -->
+    <VsSDKBuildToolsVersion>17.8.3163</VsSDKBuildToolsVersion>
+  </PropertyGroup>
+</Project>
